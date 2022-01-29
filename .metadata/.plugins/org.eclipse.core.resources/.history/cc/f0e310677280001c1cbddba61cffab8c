@@ -1,0 +1,20 @@
+package libreria;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+import com.libreria.model.Categoria;
+
+public class MBCategorias implements Serializable {
+    List<Categoria> catlist=null;
+    CategoriaSvrImp catsvr = new 
+	@PostConstruct
+	public void init(){
+		
+	}
+	private void listar(){
+		
+	}
+}

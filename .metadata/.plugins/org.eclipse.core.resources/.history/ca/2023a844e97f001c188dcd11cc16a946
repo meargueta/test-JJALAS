@@ -1,0 +1,6 @@
+package com.libreria.dao;
+import com.libreria.model.*;
+
+public interface ILibrosDao extends DaoGenerico<Libro, Long> {
+
+}

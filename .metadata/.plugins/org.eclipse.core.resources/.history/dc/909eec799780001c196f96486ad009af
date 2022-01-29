@@ -1,0 +1,32 @@
+package libreria;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+
+import com.libreria.model.Categoria;
+import com.libreria.services.CategoriaSvrImp;
+@ManagedBean(name="mBcat")
+@ViewScoped
+public class MBCategorias implements Serializable {
+    List<Categoria> catlist=null;
+    CategoriaSvrImp catsvr = new CategoriaSvrImp();
+    @PostConstruct
+	public void init(){
+		listar();
+	}
+	private void listar(){
+		catlist = catsvr.findAll();
+	}
+	public List<Categoria> getCatlist() {
+		return catlist;
+	}
+	public void setCatlist(List<Categoria> catlist) {
+		this.catlist = catlist;
+	}
+	
+	
+}
