@@ -46,9 +46,9 @@
              <p:inputText  id="catn" value="#{mBcat.catsel.nombre}"  label="Categoria" filter="true" filterMatchMode="startsWith" required="true" size="50"/>
             
              <h:outputLabel>Activo :</h:outputLabel>
-         
+          <p:inputText  id="act" value="#{mBcat.catsel.activo}"  label="Activo" filter="true" filterMatchMode="startsWith" required="true" size="10"/>          
            
-           <p:selectBooleanButton onLabel="#{mBcat.catsel.activo}" offLabel="#{mBcat.catsel.activo}" style="width:6rem" value="#{mBcat.catsel.activo}"/>
+           <p:selectBooleanButton style="width:6rem" value="#{mBcat.catsel.activo}"/>
              
            
            </h:panelGrid>

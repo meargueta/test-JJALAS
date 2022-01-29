@@ -28,7 +28,7 @@ public class MBCategorias implements Serializable {
     	
     }
     public void actualizar(){
-    	catsvr.
+    	
     }
     
 	private void listar(){
