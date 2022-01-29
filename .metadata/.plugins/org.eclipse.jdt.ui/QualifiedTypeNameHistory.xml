@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.libreria.persistencia.DaoGenerico"/>
-<fullyQualifiedTypeName name="com.libreria.model.Autor"/>
 <fullyQualifiedTypeName name="com.libreria.persistencia.DaoGenericoImp"/>
 <fullyQualifiedTypeName name="com.libreria.services.CategoriaSvr"/>
 <fullyQualifiedTypeName name="com.libreria.dao.CategoriaDaoImp"/>
@@ -9,6 +8,9 @@
 <fullyQualifiedTypeName name="com.libreria.services.CategoriaSvrImp"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.libreria.model.Categoria"/>
+<fullyQualifiedTypeName name="com.libreria.services.AutorSvr"/>
+<fullyQualifiedTypeName name="com.libreria.dao.AutorDao"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.libreria.model.Autor"/>
 </qualifiedTypeNameHistroy>

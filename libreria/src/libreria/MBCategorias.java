@@ -20,15 +20,28 @@ public class MBCategorias implements Serializable {
     List<Categoria> catlisf=null;
     Categoria catsel=null;
     CategoriaSvrImp catsvr = new CategoriaSvrImp();
+    private boolean activov=true;
     @PostConstruct
 	public void init(){
 		listar();
 	}
-    public void guardar(){
+    public void onCreate(){
+    	catsel = new Categoria();
     	
     }
+    public void onEdit(){
+    	if (catsel.getActivo().equals("Si")){
+    		activov=true;
+    	}else{
+    		activov=false;
+    	}
+    	System.out.println("Activo "+activov+" bd "+catsel.getActivo());
+    }
+    public void guardar(){
+    	catsvr.guardar(catsel);
+    }
     public void actualizar(){
-    	catsvr.
+    	catsvr.actualizar(catsel);
     }
     
 	private void listar(){
@@ -51,6 +64,12 @@ public class MBCategorias implements Serializable {
 	}
 	public void setCatsel(Categoria catsel) {
 		this.catsel = catsel;
+	}
+	public boolean isActivov() {
+		return activov;
+	}
+	public void setActivov(boolean activov) {
+		this.activov = activov;
 	}
 	
 	

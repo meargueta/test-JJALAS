@@ -58,9 +58,7 @@ public class Autor implements Serializable {
     @Size(max = 50)
     @Column(name = "pais")
     private String pais;
-    @OneToMany(mappedBy = "idautor")
-    private List<Libro> libroList;
-
+   
     public Autor() {
     }
 
@@ -106,14 +104,7 @@ public class Autor implements Serializable {
         this.pais = pais;
     }
 
-    @XmlTransient
-    public List<Libro> getLibroList() {
-        return libroList;
-    }
-
-    public void setLibroList(List<Libro> libroList) {
-        this.libroList = libroList;
-    }
+   
 
     @Override
     public int hashCode() {

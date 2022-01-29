@@ -1,0 +1,41 @@
+package com.libreria.dao;
+
+import java.util.List;
+
+import com.libreria.model.Autor;
+
+public class AutorDao implements IAutorDao {
+
+	@Override
+	public void Guardar(Autor t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Actualizar(Autor t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Autor Buscar(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void Eliminar(Autor t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Autor> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

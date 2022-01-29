@@ -1,0 +1,33 @@
+package com.libreria.services;
+
+import java.util.List;
+
+import com.libreria.model.Autor;
+
+public class AutorSvrImp implements AutorSvr {
+    
+	@Override
+	public List<Autor> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void guardar(Autor c) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void actualizar(Autor c) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eliminar(Autor c) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -11,3 +11,20 @@ ene. 28, 2022 20:43:47.44
 ene. 28, 2022 20:56:55.51 
 ene. 28, 2022 20:56:55.51 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 ene. 28, 2022 20:56:55.51 
+
+ene. 28, 2022 21:29:41.67 NEW SESSION
+ene. 28, 2022 21:29:41.67 
+ene. 28, 2022 21:29:41.67 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+ene. 28, 2022 21:29:41.67 
+ene. 28, 2022 21:35:35.04 
+ene. 28, 2022 21:35:35.04 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+ene. 28, 2022 21:35:35.04 
+ene. 28, 2022 22:34:27.84 
+ene. 28, 2022 22:34:27.84 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A000B,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+ene. 28, 2022 22:34:27.84 
+ene. 28, 2022 22:34:28.59 
+ene. 28, 2022 22:34:28.59 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+ene. 28, 2022 22:34:28.59 
+ene. 28, 2022 22:41:16.93 
+ene. 28, 2022 22:41:16.93 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+ene. 28, 2022 22:41:16.93 
